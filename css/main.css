@@ -1,0 +1,36 @@
+/* Estilos generales */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #faebd7;
+}
+
+.container {
+  margin-top: 5em;
+}
+
+/* Estilos a las imágenes */
+
+img.responsive-img, video.responsive-video {
+  width: 400px;
+}
+
+@media (min-width: 993px) {
+  .container {
+    width: 80%;
+  } 
+
+  img.responsive-img, video.responsive-video {
+    max-height: 600px;
+    height: 300px;
+    width: auto;
+  }   
+}
+
+@media only screen and (min-width: 1201px) {
+  .container {
+    width: 70%;
+  }
+}
