@@ -21,19 +21,19 @@ con el texto del atributo `alt` de la imagen.
 1. Semana 1 - días : 
 
   - **Miércoles 24**: Tomar decisiones del reto a desarrollar.
-    Encargadas: Araceli y Lesly.
-    Resultado: Se determinó por unanimidad realizar el reto 2 - Cardify.
+    - Encargadas: Araceli y Lesly.
+    - Resultado: Se determinó por unanimidad realizar el reto 2 - Cardify.
 
   - **Jueves 25**: Investigación del material a utilizar, como son los issues y milestones.
-    Encargadas: Araceli y Lesly.
+    - Encargadas: Araceli y Lesly.
 
   - **Viernes 26**: Iniciamos la estructura del reto elegido y se hizo la asignación de tareas aplicando el issues. 
-    Encargadas: Araceli y Lesly 
-    Resultado: Planificación parte 1, se puede observar dándole click en el siguiente enlace: https://github.com/AraceliGS/cardify/issues/1.
+    - Encargadas: Araceli y Lesly 
+    - Resultado: Planificación parte 1, se puede observar dándole click en el siguiente enlace: https://github.com/AraceliGS/cardify/issues/1.
 
   - **Sábado 27**: Se realizó la maquetación, asignación de tareas del día, se añadieron los archivos package.json y .gitignore.
-    Encargadas: Araceli y Lesly
-    Resultado: 
+    - Encargadas: Araceli y Lesly
+    - Resultado: 
       - Scketch inicial.
       - Estructura inicial y estilos.
       - Asignación de tareas empleando issues, Planificación - parte 2: https://github.com/AraceliGS/cardify/issues/3.
@@ -44,5 +44,6 @@ con el texto del atributo `alt` de la imagen.
 ## Anexos
 
 **Scketch**
+
 ![scketch-inicial](assets/docs/scketch-inicial.jpg "scketch-inicial")
 
