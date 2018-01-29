@@ -10,7 +10,7 @@
       function init() {
         let $arrayOfImages = $('img'); 
         $arrayOfImages.each(function() {
-          alert('¡Funciona!');
+          
         });
       }
       return $(this).each(init);
