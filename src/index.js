@@ -7,10 +7,12 @@
   obj.fn.extend({
     // Nombre del plugin
     cardify: function() {
+    // Ejecuta la función del plugin
       function init() {
         let $arrayOfImages = $('img'); 
         $arrayOfImages.each(function() {
-          alert('¡Funciona!');
+          // alert('¡Funciona!');
+          $(this).attr('alt');
         });
       }
       return $(this).each(init);
