@@ -7,12 +7,10 @@
   obj.fn.extend({
     // Nombre del plugin
     cardify: function() {
-      function init() {
-        let $arrayOfImages = $('img'); 
-        $arrayOfImages.each(function() {
-          
-        });
-      }
+      const init = () => {
+        $(this).addClass('opacity');
+        alert($(this).attr('alt'));
+      };
       return $(this).each(init);
     }
   });
