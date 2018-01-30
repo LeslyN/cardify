@@ -42,3 +42,9 @@ img.responsive-img, video.responsive-video {
     width: 70%;
   }
 }
+
+/* Probando */
+
+.opacity {
+  opacity: 0.5;
+}

@@ -1,7 +1,7 @@
-$(document).ready(function() {
+$(document).ready(() => {
   let $images = $('img');
   $images.each(function() {
-    $(this).mouseover(function() {
+    $(this).one('mouseover', () => {
       $(this).cardify();  
     });
   });
