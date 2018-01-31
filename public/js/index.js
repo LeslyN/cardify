@@ -1,3 +1,5 @@
+'use strict';
+
 // Código del plugin Cardify
 // Función anónima autoejecutable
 // (function($) {
@@ -28,37 +30,23 @@
 
 //       return $(this).each(init);
 //     }
-    
+
 
 //   });
 // })(jQuery);
 
-(function($) {
-  $.fn.cardify = function() {
-    let $containerImages = $('container');
-    let $images = $('img');
-    let textAlt = $images.attr('alt');
+(function ($) {
+  $.fn.cardify = function () {
+    // const init = () => {
+    var $images = $('img');
+    var textAlt = $images.attr('alt');
+    $images.addClass('opacity');
+    $images.wrap('<figure></figure>');
+    $images.parent().append('<figcaption></figcaption>');
+    console.log($images.next().text(textAlt));
+    alert('sdasd');
 
-    if ($containerImages) {
-      $images.addClass('opacity');
-      $images.wrap('<figure></figure>');
-      $images.parent().append('<figcaption></figcaption>');
-      console.log($images.next().text(textAlt));
-      alert('sdasd');
-    } else {
-      console.log('No se encontró un contenedor');
-    }
-    
-    $images.on('mouseover', () => {
-      $images.hide();
-      $textAlt.show();
-      $textAlt.css(); //centrar
-    });
-
-    $images.on('mouseout', () => {
-      $images.show();
-      $textAlt.hide();
-    });
+    // };
     return this;
   };
-}(jQuery));
+})(jQuery);
