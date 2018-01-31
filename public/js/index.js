@@ -37,16 +37,33 @@
 
 (function ($) {
   $.fn.cardify = function () {
-    // const init = () => {
+    var $containerImages = $('container');
     var $images = $('img');
-    var textAlt = $images.attr('alt');
-    $images.addClass('opacity');
-    $images.wrap('<figure></figure>');
-    $images.parent().append('<figcaption></figcaption>');
-    console.log($images.next().text(textAlt));
-    alert('sdasd');
+    var textAlt = $images.map(function (el) {
+      return $images[el].alt;
+    });
 
-    // };
+    if ($containerImages) {
+      $images.addClass('opacity');
+      $images.wrap('<figure></figure>');
+      $images.parent().append('<figcaption></figcaption>');
+      console.log($images.next().text(textAlt));
+      alert('sdasd');
+    } else {
+      console.log('No se encontró un contenedor');
+    }
+
+    $images.on('mouseover', function () {
+      $images.hide();
+      $textAlt.show();
+      // centrar
+      $textAlt.css();
+    });
+
+    $images.on('mouseout', function () {
+      $images.show();
+      $textAlt.hide();
+    });
     return this;
   };
 })(jQuery);

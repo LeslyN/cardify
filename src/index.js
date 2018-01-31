@@ -37,7 +37,7 @@
   $.fn.cardify = function() {
     let $containerImages = $('container');
     let $images = $('img');
-    let textAlt = $images.attr('alt');
+    let textAlt = $images.map(el => $images[el].alt);
 
     if ($containerImages) {
       $images.addClass('opacity');
