@@ -37,12 +37,14 @@
   $.fn.cardify = function() {
     let $containerImages = $('container');
     let $images = $('img');
-    let textAlt = $images.map(el => $images[el].alt);
 
     if ($containerImages) {
+      debugger;
       $images.addClass('opacity');
       $images.wrap('<figure></figure>');
-      $images.parent().append('<figcaption></figcaption>');
+      let $textAlt = $images.map(el => $images[el].alt);
+      $textAlt.each(el => el.parent().append('<figcaption></figcaption>'));
+      $('<figcaption></figcaption>').parent().append($images);
       console.log($images.next().text(textAlt));
       alert('sdasd');
     } else {
