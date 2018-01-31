@@ -52,7 +52,8 @@
     $images.on('mouseover', () => {
       $images.hide();
       $textAlt.show();
-      $textAlt.css(); //centrar
+      // centrar
+      $textAlt.css(); 
     });
 
     $images.on('mouseout', () => {
