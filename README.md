@@ -45,5 +45,5 @@ con el texto del atributo `alt` de la imagen.
 
 **Scketch**
 
-![scketch-inicial](assets/docs/scketch-inicial.jpg "scketch-inicial")
+![scketch-inicial](public/assets/docs/scketch-inicial.jpg "scketch-inicial")
 
