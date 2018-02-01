@@ -48,3 +48,9 @@ img.responsive-img, video.responsive-video {
 .opacity {
   opacity: 0.5;
 }
+
+.figcaption-position {
+  position: relative;
+  bottom: 6.5em;
+  font-size: 1.8em;
+}
