@@ -18,7 +18,7 @@ con el texto del atributo `alt` de la imagen.
 
 ## Planificación:
 
-1. Semana 1 - días : 
+1. Semana 1 - días: 
 
   - **Miércoles 24**: Tomar decisiones del reto a desarrollar.
     - Encargadas: Araceli y Lesly.
@@ -41,9 +41,16 @@ con el texto del atributo `alt` de la imagen.
       - Primera actualización del archivo README.md.
       - Investigación de plugin.
 
+2. Semana 2 - días:
+  - **Lunes 29, Martes 30, Miércoles 31**: Se dió el término de la funcionalidad y estilos al plugin, reestructuración de archivos y carpetas con uso del transpilador Babel, actualizacición del archivo README.md, actualización de issues.
+    - Encargadas: Araceli y Lesly
+
 ## Anexos
 
 **Scketch**
 
 ![scketch-inicial](public/assets/docs/scketch-inicial.jpg "scketch-inicial")
+
+## Resultado Final
+![resultado-final](public/assets/docs/resultado-final.png "resultado-final")
 
