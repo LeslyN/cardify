@@ -1,3 +1,5 @@
+'use strict';
+
 // Código del plugin Cardify
 // Función anónima autoejecutable
 // (function($) {
@@ -28,40 +30,40 @@
 
 //       return $(this).each(init);
 //     }
-    
+
 
 //   });
 // })(jQuery);
 
-(function($) {
-  $.fn.cardify = function() {
-    let $containerImages = $('container');
-    let $images = $('img');
+(function ($) {
+  $.fn.cardify = function () {
+    var $containerImages = $('container');
+    var $images = $('img');
+    var textAlt = $images.map(function (el) {
+      return $images[el].alt;
+    });
 
     if ($containerImages) {
-      debugger;
       $images.addClass('opacity');
       $images.wrap('<figure></figure>');
-      let $textAlt = $images.map(el => $images[el].alt);
-      $textAlt.each(el => el.parent().append('<figcaption></figcaption>'));
-      $('<figcaption></figcaption>').parent().append($images);
+      $images.parent().append('<figcaption></figcaption>');
       console.log($images.next().text(textAlt));
       alert('sdasd');
     } else {
       console.log('No se encontró un contenedor');
     }
-    
-    $images.on('mouseover', () => {
+
+    $images.on('mouseover', function () {
       $images.hide();
       $textAlt.show();
       // centrar
-      $textAlt.css(); 
+      $textAlt.css();
     });
 
-    $images.on('mouseout', () => {
+    $images.on('mouseout', function () {
       $images.show();
       $textAlt.hide();
     });
     return this;
   };
-}(jQuery));
+})(jQuery);
