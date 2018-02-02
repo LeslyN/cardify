@@ -1,10 +1,16 @@
 /* Estilos generales */
 * {
   box-sizing: border-box;
+  font-family: GillSans, Calibri, Trebuchet, sans-serif;
 }
 
 body {
-  background-color: #faebd7;
+  background-color: #fcf6ed;
+}
+
+.center {
+  text-align: center;
+  justify-content: space-around;
 }
 
 .container {
@@ -21,6 +27,20 @@ nav .brand-logo {
   font-family: 'Tinos', serif;
   font-size: 2.5em;
 }
+
+/* Estilos descripción */
+.text-style, p, li {
+  font-size: 20px;
+}
+
+.style-info {
+  padding-left: 1em;
+}
+
+li {
+  padding: .5em;
+}
+
 
 /* Estilos a las imágenes */
 .image {
