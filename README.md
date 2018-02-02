@@ -1,19 +1,17 @@
 # Cardify
 
+[![forthebadge](http://forthebadge.com/images/badges/built-by-developers.svg)](http://forthebadge.com)
+[![forthebadge](http://forthebadge.com/images/badges/uses-css.svg)](http://forthebadge.com)
+[![forthebadge](http://forthebadge.com/images/badges/uses-html.svg)](http://forthebadge.com)
+[![forthebadge](http://forthebadge.com/images/badges/uses-js.svg)](http://forthebadge.com)
+[![forthebadge](http://forthebadge.com/images/badges/uses-git.svg)](http://forthebadge.com)
+[![forthebadge](http://forthebadge.com/images/badges/validated-html5.svg)](http://forthebadge.com)
+
 * **Track:** _Common Core_
 * **Curso:** _JS Deep Dive: Crea tu propia librería usando JavaScript_
 * **Unidad:** _Producto final_
 
 ***
-
-[![forthebadge](http://forthebadge.com/images/badges/built-by-developers.svg)](http://forthebadge.com)
-
-[![forthebadge](http://forthebadge.com/images/badges/uses-css.svg)](http://forthebadge.com)
-[![forthebadge](http://forthebadge.com/images/badges/uses-html.svg)](http://forthebadge.com)
-[![forthebadge](http://forthebadge.com/images/badges/uses-js.svg)](http://forthebadge.com)
-
-[![forthebadge](http://forthebadge.com/images/badges/uses-git.svg)](http://forthebadge.com)
-[![forthebadge](http://forthebadge.com/images/badges/validated-html5.svg)](http://forthebadge.com)
 
 ## **Objetivo**
 
@@ -21,6 +19,20 @@ Implementar un plugin de jQuery que dado un _contenedor_ debe buscar todas las
 imágenes que encuentre dentro del _contenedor_ y reemplazarlas por un nuevo
 elemento `<figure>` que contenga la imagen (`<img>`) además de un `<figcaption>`
 con el texto del atributo `alt` de la imagen.
+
+## **Herramientas Tecnológicas**
+
+* HTML 5
+
+* CSS 3
+
+* Framework Materialize
+
+* Librería jQuery
+
+* Javascript
+
+## **Getting Started**
 
 ## **Flujo de trabajo**
 
