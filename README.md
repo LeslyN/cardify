@@ -69,11 +69,19 @@ con el texto del atributo `alt` de la imagen.
   - **Lunes 29, Martes 30, Miércoles 31**: Se dió el término de la funcionalidad y estilos al plugin, reestructuración de archivos y carpetas con uso del transpilador Babel, actualizacición del archivo README.md, actualización de issues.
     - Encargadas: Araceli y Lesly
 
+3. Semana 3 - días:
+  - **Jueves 01, Viernes 02 de febrero**: Se hizo actualizaciones de acuerdo al feedback obtenido en el code review por nuestro squad, actualización del readme, snippets.
+  - Encargadas: Araceli y Lesly. 
+
 ## **Anexos**
 
 ### **Scketch**
 
 ![scketch-inicial](public/assets/docs/scketch-inicial.jpg "scketch-inicial")
+
+## **Prototipado**
+
+![prototipado](public/assets/docs/prototipado.png "prototipado")
 
 ## **Resultado Final**
 
