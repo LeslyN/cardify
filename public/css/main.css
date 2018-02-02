@@ -38,6 +38,7 @@ nav .brand-logo {
 /* Estilos a las imágenes */
 .image {
   padding: .5em;
+  height: auto;
   /* height: 50%; */
 }
 
@@ -66,9 +67,19 @@ nav .brand-logo {
 
 /* Probando */
 
-.figcaption-position {
+/* .figcaption-position {
   position: relative;
   bottom: 6.5em;
   font-size: 1.8em;
   display: block;
-}
+} */
+
+.container figure .figcaption-position {
+  background-color: rgba(140, 231, 79, 0.3);
+  text-align: center;
+  padding: 1rem;
+  width: 100%;
+  position: inherit;
+  bottom: 0;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s; }
