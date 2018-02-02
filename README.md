@@ -1,17 +1,18 @@
 # Cardify
 
-* **Track:** _Common Core_
-* **Curso:** _JS Deep Dive: Crea tu propia librería usando JavaScript_
-* **Unidad:** _Producto final_
-
-***
-> [![forthebadge](http://forthebadge.com/images/badges/built-by-developers.svg)](http://forthebadge.com)
+[![forthebadge](http://forthebadge.com/images/badges/built-by-developers.svg)](http://forthebadge.com)
 [![forthebadge](http://forthebadge.com/images/badges/uses-css.svg)](http://forthebadge.com)
 [![forthebadge](http://forthebadge.com/images/badges/uses-html.svg)](http://forthebadge.com)
 [![forthebadge](http://forthebadge.com/images/badges/uses-js.svg)](http://forthebadge.com)
 [![forthebadge](http://forthebadge.com/images/badges/uses-git.svg)](http://forthebadge.com)
 [![forthebadge](http://forthebadge.com/images/badges/validated-html5.svg)](http://forthebadge.com)
 [![forthebadge](http://forthebadge.com/images/badges/for-you.svg)](http://forthebadge.com)
+
+* **Track:** _Common Core_
+* **Curso:** _JS Deep Dive: Crea tu propia librería usando JavaScript_
+* **Unidad:** _Producto final_
+
+***
 
 ## **Objetivo**
 
@@ -62,7 +63,7 @@ Proyecto
 │       ├── jquery
 │       │   ├── jquery-3.2.1.min.js
 │       │
-│       ├── materialize
+│       ├── materialize││framework de tu elección
 │
 ├── src/
 │   ├── app.js(ES6)
@@ -90,26 +91,7 @@ Para incluir este plugin a tu proyecto, inserta el archivo `index.js` en una eti
 ### **Inicializando con jQuery**
 
 ```bash
-public/
-├── assets/
-│   ├── images/
-│       ├── // Imágenes
-├── css/
-│   ├── main.css
-│   ├── bootstrap-theme.css.map
-│   ├── bootstrap-theme.min.css
-│   └── bootstrap-theme.min.css.map
-├── js/
-│   ├── app.js(ES5)
-│   └── index.js
-│
-├── index.html
-│
-└── vendors/
-    ├── jquery
-    │   ├── jquery-3.2.1.min.js
-    │
-    ├── // Framework de tu elección
+$('img').cardify();
 ```
 
 ## **Flujo de trabajo**
