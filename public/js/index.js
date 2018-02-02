@@ -19,7 +19,7 @@
           $figcaption.addClass('figcaption-position');
           $(_this).parent().append($figcaption);
           $figcaption.show();
-          console.log($(_this).next().text($textAlt));
+          $(_this).next().text($textAlt);
         });
       }
     });
