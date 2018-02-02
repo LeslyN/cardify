@@ -1,30 +1,23 @@
 /* Estilos generales */
 * {
   box-sizing: border-box;
+  font-family: GillSans, Calibri, Trebuchet, sans-serif;
 }
 
 body {
-  background-color: #faebd7;
+  background-color: #fcf6ed;
 }
 
-.container {
-  overflow: auto;
-  display: flex;
+.center {
+  text-align: center;
+  justify-content: space-around;
 }
 
-.gallery {
-  padding: 3em;
-}
-
-.card {
-  /* border: 1px solid #ABB2B9; */
-  border: 1px solid #eacadd;
-  border-radius: 3px;
-}
 .container {
   margin-top: 1em;
   margin-left: .5rem;
-  width: 100%;
+  overflow: auto;
+  display: flex;
   /* margin-bottom: 5em; */
 }
 
@@ -35,51 +28,39 @@ nav .brand-logo {
   font-size: 2.5em;
 }
 
+/* Estilos descripción */
+.text-style, p, li {
+  font-size: 20px;
+}
+
+.style-info {
+  padding-left: 1em;
+}
+
+li {
+  padding: .5em;
+}
+
+
 /* Estilos a las imágenes */
 .image {
-  padding: .5em;
-  height: auto;
-  /* height: 50%; */
+  padding: .3em;
 }
 
-
-/* img.responsive-img, video.responsive-video {
-  width: 400px;
+.gallery {
+  padding: 2em;
 }
 
-@media (min-width: 993px) {
-  .container {
-    width: 80%;
-  } 
-
-  img.responsive-img, video.responsive-video {
-    max-height: 600px;
-    height: 300px;
-    width: auto;
-  }   
+.card {
+  /* border: 1px solid #ABB2B9; */
+  border: 1px solid #eacadd;
+  border-radius: 4px;
 }
 
-@media only screen and (min-width: 1201px) {
-  .container {
-    width: 70%;
-  }
-} */
-
-/* Probando */
-
-/* .figcaption-position {
-  position: relative;
-  bottom: 6.5em;
-  font-size: 1.8em;
-  display: block;
-} */
-
-.container figure .figcaption-position {
+.figcaption-position {
   background-color: rgba(140, 231, 79, 0.3);
   text-align: center;
   padding: 1rem;
   width: 100%;
-  position: inherit;
-  bottom: 0;
-  -webkit-transition: all ease 0.5s;
-  transition: all ease 0.5s; }
+  position: relative;
+}
