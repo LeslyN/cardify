@@ -1,17 +1,17 @@
 # Cardify
 
-[![forthebadge](http://forthebadge.com/images/badges/built-by-developers.svg)](http://forthebadge.com)
-[![forthebadge](http://forthebadge.com/images/badges/uses-css.svg)](http://forthebadge.com)
-[![forthebadge](http://forthebadge.com/images/badges/uses-html.svg)](http://forthebadge.com)
-[![forthebadge](http://forthebadge.com/images/badges/uses-js.svg)](http://forthebadge.com)
-[![forthebadge](http://forthebadge.com/images/badges/uses-git.svg)](http://forthebadge.com)
-[![forthebadge](http://forthebadge.com/images/badges/validated-html5.svg)](http://forthebadge.com)
-
 * **Track:** _Common Core_
 * **Curso:** _JS Deep Dive: Crea tu propia librería usando JavaScript_
 * **Unidad:** _Producto final_
 
 ***
+> [![forthebadge](http://forthebadge.com/images/badges/built-by-developers.svg)](http://forthebadge.com)
+[![forthebadge](http://forthebadge.com/images/badges/uses-css.svg)](http://forthebadge.com)
+[![forthebadge](http://forthebadge.com/images/badges/uses-html.svg)](http://forthebadge.com)
+[![forthebadge](http://forthebadge.com/images/badges/uses-js.svg)](http://forthebadge.com)
+[![forthebadge](http://forthebadge.com/images/badges/uses-git.svg)](http://forthebadge.com)
+[![forthebadge](http://forthebadge.com/images/badges/validated-html5.svg)](http://forthebadge.com)
+[![forthebadge](http://forthebadge.com/images/badges/for-you.svg)](http://forthebadge.com)
 
 ## **Objetivo**
 
@@ -32,7 +32,85 @@ con el texto del atributo `alt` de la imagen.
 
 * Javascript
 
+* Babel
+
+* Node.js
+
+* Guía de Estilos(`.eslintrc`)
+
 ## **Getting Started**
+
+### **Estructura de Carpetas**
+
+```bash
+Proyecto
+├── public/
+│   ├── assets/
+│   │   ├── images/
+│   │   ├── // Imágenes
+│   │
+│   ├── css/
+│   │   ├── main.css
+│   │
+│   ├── js/
+│   │   ├── app.js(ES5)
+│   │   └── index.js(ES5)
+│   │
+│   ├── index.html
+│   │
+│   └── vendors/
+│       ├── jquery
+│       │   ├── jquery-3.2.1.min.js
+│       │
+│       ├── materialize
+│
+├── src/
+│   ├── app.js(ES6)
+│   ├── index.js(ES6)
+│
+├── README.md
+│
+├── .gitignore
+│
+├── package.json
+│
+└── .eslintrc
+
+```
+
+Para incluir este plugin a tu proyecto, inserta el archivo `index.js` en una etiqueta script en tu archivo HTML:
+
+```bash
+<script src="vendors/jquery/jquery-3.2.1.min.js"></script>
+<script src="vendors/materialize/js/materialize.min.js"></script>
+<script src="js/index.js"></script>
+<script src="js/app.js"></script>
+```
+
+### **Inicializando con jQuery**
+
+```bash
+public/
+├── assets/
+│   ├── images/
+│       ├── // Imágenes
+├── css/
+│   ├── main.css
+│   ├── bootstrap-theme.css.map
+│   ├── bootstrap-theme.min.css
+│   └── bootstrap-theme.min.css.map
+├── js/
+│   ├── app.js(ES5)
+│   └── index.js
+│
+├── index.html
+│
+└── vendors/
+    ├── jquery
+    │   ├── jquery-3.2.1.min.js
+    │
+    ├── // Framework de tu elección
+```
 
 ## **Flujo de trabajo**
 
