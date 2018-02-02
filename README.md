@@ -99,6 +99,17 @@ $('img').cardify();
 1. Se realizó un [**fork**](https://gist.github.com/ivandevp/1de47ae69a5e139a6622d78c882e1f74)
    del repositorio brindado por `Laboratoria`.
 
+2. Se desarrolló la página web a la cual se le implementa el plugin Cardify.
+
+3. Primero, Cardify lo que hace es detectar si existe contenedor.
+
+4. Si no existe te manda una alerta confirmando que no ha encontrado ningún conetendor.
+
+5. Si lo encuentra, entonces al pasar el mouse encima de la imagen:
+
+   * La imagen es envuelta por un elemento figure.
+   * Se extrae su descripción contenida en el atributo alt y es encerrada en un figcaption, al cual se le añade algunos estilos.
+
 ## **Planificación**
 
 1. Semana 1 - días:
