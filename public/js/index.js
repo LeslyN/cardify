@@ -9,7 +9,7 @@
       var _this = this;
 
       $(this).one('mouseover', function () {
-        $(_this).addClass('opacity');
+        // $(this).addClass('opacity');
         var $textAlt = $(_this).attr('alt');
         var $figure = $('<figure></figure>');
         $(_this).wrap($figure).parent();

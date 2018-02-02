@@ -5,7 +5,7 @@
     let $listOfImages = $('img'); 
     $listOfImages.each(function() {
       $(this).one('mouseover', () => {
-        $(this).addClass('opacity');
+        // $(this).addClass('opacity');
         let $textAlt = $(this).attr('alt');
         let $figure = $('<figure></figure>');
         $(this).wrap($figure).parent();
