@@ -41,6 +41,12 @@ li {
   padding: .5em;
 }
 
+/* Estilos al figure */
+
+figure {
+  position: relative;
+}
+
 
 /* Estilos a las imágenes */
 .image {
@@ -55,12 +61,23 @@ li {
   /* border: 1px solid #ABB2B9; */
   border: 1px solid #eacadd;
   border-radius: 4px;
+  display: flex;
+  justify-content: center;
 }
 
 .figcaption-position {
-  background-color: rgba(140, 231, 79, 0.3);
-  text-align: center;
+  background-color: rgba(5, 5, 7, 0.5);
   padding: 1rem;
   width: 100%;
-  position: relative;
+  position: absolute;
+  bottom: 0.7em;
+  color: white;
+  max-width: 97%;
+  /* max-height: 97%; */
+  height: auto;
+  width: 100%;
+  left: 0.3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
