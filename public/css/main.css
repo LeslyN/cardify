@@ -50,7 +50,7 @@ figure {
 
 /* Estilos a las imágenes */
 .image {
-  padding: .3em;
+  padding: .3em 0em;
 }
 
 .gallery {
@@ -72,11 +72,10 @@ figure {
   position: absolute;
   bottom: 0.7em;
   color: white;
-  max-width: 97%;
+  max-width: 100%;
   /* max-height: 97%; */
   height: auto;
   width: 100%;
-  left: 0.3em;
   display: flex;
   align-items: center;
   justify-content: center;
