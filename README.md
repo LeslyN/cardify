@@ -6,6 +6,7 @@
 [![forthebadge](http://forthebadge.com/images/badges/uses-js.svg)](http://forthebadge.com)
 [![forthebadge](http://forthebadge.com/images/badges/uses-git.svg)](http://forthebadge.com)
 [![forthebadge](http://forthebadge.com/images/badges/validated-html5.svg)](http://forthebadge.com)
+[![forthebadge](http://forthebadge.com/images/badges/for-you.svg)](http://forthebadge.com)
 
 * **Track:** _Common Core_
 * **Curso:** _JS Deep Dive: Crea tu propia librería usando JavaScript_
@@ -32,12 +33,82 @@ con el texto del atributo `alt` de la imagen.
 
 * Javascript
 
+* Babel
+
+* Node.js
+
+* Guía de Estilos(`.eslintrc`)
+
 ## **Getting Started**
+
+### **Estructura de Carpetas**
+
+```bash
+Proyecto
+├── public/
+│   ├── assets/
+│   │   ├── images/
+│   │   ├── // Imágenes
+│   │
+│   ├── css/
+│   │   ├── main.css
+│   │
+│   ├── js/
+│   │   ├── app.js(ES5)
+│   │   └── index.js(ES5)
+│   │
+│   ├── index.html
+│   │
+│   └── vendors/
+│       ├── jquery
+│       │   ├── jquery-3.2.1.min.js
+│       │
+│       ├── materialize││framework de tu elección
+│
+├── src/
+│   ├── app.js(ES6)
+│   ├── index.js(ES6)
+│
+├── README.md
+│
+├── .gitignore
+│
+├── package.json
+│
+└── .eslintrc
+
+```
+
+Para incluir este plugin a tu proyecto, inserta el archivo `index.js` en una etiqueta script en tu archivo HTML:
+
+```bash
+<script src="vendors/jquery/jquery-3.2.1.min.js"></script>
+<script src="vendors/materialize/js/materialize.min.js"></script>
+<script src="js/index.js"></script>
+<script src="js/app.js"></script>
+```
+
+### **Inicializando con jQuery**
+
+```bash
+$('img').cardify();
+```
 
 ## **Flujo de trabajo**
 
 1. Se realizó un [**fork**](https://gist.github.com/ivandevp/1de47ae69a5e139a6622d78c882e1f74)
    del repositorio brindado por `Laboratoria`.
+
+2. Se desarrolló la página web a la cual se le implementa el plugin Cardify.
+
+3. Primero, Cardify lo que hace es detectar si existe contenedor.
+
+4. Si no existe te manda una alerta confirmando que no ha encontrado ningún conetendor.
+
+5. Si lo encuentra, entonces al pasar el mouse encima de la imagen:
+
+   * La imagen es envuelta por un elemento figure.
+   * Se extrae su descripción contenida en el atributo alt y es encerrada en un figcaption, al cual se le añade algunos estilos.
 
 ## **Planificación**
 
