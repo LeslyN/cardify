@@ -24,13 +24,7 @@ body {
 nav .brand-logo {
   font-family: 'Tinos', serif;
   font-size: 2.5em;
-}
-
-i.icon-face {
-  background-image: url(../assets/icons/github-logo.svg);
-  background-repeat: no-repeat;
-  background-size: 1em 1em;
-  background-position: center left;
+  padding-left: .5em;
 }
 
 /* Estilos descripción */
@@ -61,7 +55,7 @@ figure {
 
 .gallery {
   padding: 2em;
-  max-width: 80%;
+  max-width: 90%;
 }
 
 .card {
