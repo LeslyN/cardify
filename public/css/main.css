@@ -72,8 +72,10 @@ figure {
   min-width: 100%;
   min-height: 100%;
   opacity: 1;
-  padding-top: 10rem;
   position: absolute;
-  text-align: center;
   top: 0%;
+  font-size: 1.8em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
