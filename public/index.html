@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Cardify</title>
   <link href="https://fonts.googleapis.com/css?family=Tinos" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="vendors/materialize/css/materialize.min.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
@@ -14,7 +15,15 @@
   <header>
     <nav>
       <div class="nav-wrapper">
-        <a href="#" class="brand-logo center">Cardify</a>
+        <a href="#" class="brand-logo">Cardify</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li>
+            <a href="https://github.com/AraceliGS/cardify/archive/master.zip">Descargas<i class="material-icons right">cloud_download</i></a>
+          </li>
+          <li>
+            <a href="https://github.com/AraceliGS/cardify"><i class="icon-face"></i>Github</a>
+          </li>
+        </ul>        
       </div>
     </nav>
   </header>
@@ -22,7 +31,7 @@
   <section>
     <section>
       <div class="row">
-        <div class="col container center">
+        <div class="col center">
           <p class="text-style">Cardify es un plugin de jQuery que dado un contenedor debe buscar todas las imágenes que encuentre dentro del contenedor y reemplazarlas por un nuevo elemento <code>&lt;figure&gt;</code> que contenga la imagen <code>&lt;img&gt;</code> además de un <code>&lt;figcaption&gt;</code> con el texto del atributo alt de la imagen.</p>
         </div>
       </div>
@@ -43,12 +52,13 @@
             <code>&lt;script src="vendors/materialize/js/materialize.min.js"&gt;&lt;/script&gt;</code>
             <li>Archivos para el funcionamiento del plugin:</li>
               <code>&lt;script src="js/index.js"&gt;&lt;/script&gt;</code>
+              <br>
               <code>&lt;script src="js/app.js"&gt;&lt;/script&gt;</code>
           </ol>
         </div>
       </div>
     </section>
-    <div class="row container center">
+    <div class="row center">
       <div class="col s12 l12">
         <p class="text-style blue-text">Deslice el mouse sobre una imagen y aparecerá la descripción del mismo.</p>
       </div>
@@ -124,7 +134,7 @@
       <div class="footer-copyright">
         <div class="row">
           <div class="col l12 s12 container">
-            <p class="white-text text-lighten-4">Copyright&copy; 2017.</p>
+            <p class="white-text text-lighten-4">Copyright&copy; 2018.</p>
           </div>
       </div>
     </footer>
