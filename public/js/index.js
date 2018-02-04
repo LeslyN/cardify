@@ -4,6 +4,7 @@
 // Función autoejecutable
 (function (obj) {
   $.fn.cardify = function () {
+    $(".button-collapse").sideNav();
     var $listOfImages = $('img');
     var $containerImages = $('container');
     // $listOfImages.each(function() {
