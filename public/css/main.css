@@ -27,6 +27,17 @@ nav .brand-logo {
   padding-left: .5em;
 }
 
+.side-nav {
+  background-color: rgba(243, 174, 167, 0.2);
+}
+
+/* Estilos install */
+pre {
+  display: block;
+  font-size: 1.1em;
+  color: #212529;
+}
+
 /* Estilos descripción */
 .text-style, p, li {
   font-size: 20px;
