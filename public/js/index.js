@@ -2,20 +2,20 @@
 
 // Cardify
 // Función autoejecutable
-(function (obj) {
-  $.fn.cardify = function () {
-    $(".button-collapse").sideNav();
+(function(obj) {
+  $.fn.cardify = function() {
+    $('.button-collapse').sideNav();
     var $listOfImages = $('img');
     var $containerImages = $('container');
     // $listOfImages.each(function() {
     // Evento que se ejecuta cuando el mouse está encima de la imagen
     if ($containerImages) {
       $listOfImages.wrap('<figure></figure>');
-      $('figure').hover(function () {
+      $('figure').hover(function() {
         var $textAlt = $(this).children().attr('alt');
         $(this).append('<figcaption>' + $textAlt + '</figcaption></figure>');
         $('figcaption').addClass('figcaption-position');
-      }, function () {
+      }, function() {
         $('figcaption').remove();
       });
     } else {

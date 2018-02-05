@@ -40,6 +40,15 @@ li {
   padding: .5em;
 }
 
+/* Botón add */
+.add-button {
+  bottom: 37px;
+}
+
+.image-form {
+  margin-top: 2em;
+}
+
 /* Estilos al figure */
 
 figure {

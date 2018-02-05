@@ -68,22 +68,44 @@
         <p class="text-style blue-text">Deslice el mouse sobre una imagen y aparecerá la descripción del mismo.</p>
       </div>
     </div>
+    <!-- Modal Trigger -->
+  <a class="btn-floating btn-large waves-effect waves-light red accent-1 btn modal-trigger right add-button" href="#modal1"><i class="large material-icons">add</i></a>
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <h4>Sube una foto</h4>
+        <form action="#" id="image-form">
+          <div class="file-field input-field">
+            <div class="btn">
+              <span>File</span>
+              <input type="file" id="input-file">
+            </div>
+            <div class="file-path-wrapper">
+              <input class="file-path validate" type="text">
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Upload</a>
+      </div>
+    </div>   
       <section>
         <div class="row gallery">
           <!-- <div class=""> -->
           <div class="col s12 m4 l4 card container">
             <div class="card">
-              <img class="responsive-img image" data-image="6" src="assets/images/image1.png" alt="Niña">
+              <img class="responsive-img image" data-image="0" src="assets/images/image1.png" alt="Niña">
             </div>
           </div>
           <div class="col s12 m4 l4 card container">
             <div class="card">
-              <img class="responsive-img image" data-image="7" src="assets/images/image2.jpg" alt="Moda">
+              <img class="responsive-img image" data-image="1" src="assets/images/image2.jpg" alt="Moda">
             </div>
           </div>
           <div class="col s12 m4 l4 card container">
             <div class="card">
-              <img class="responsive-img image" data-image="8" src="assets/images/image14.jpg" alt="Anime">
+              <img class="responsive-img image" data-image="2" src="assets/images/image14.jpg" alt="Anime">
             </div>
           </div>
           <!-- </div> -->
@@ -95,17 +117,17 @@
         <!-- <div class=""> -->
           <div class="col s12 m4 l4 card container">
             <div class="card">
-              <img class="responsive-img image" data-image="6" src="assets/images/image5.jpg" alt="Peluche">
+              <img class="responsive-img image" data-image="3" src="assets/images/image5.jpg" alt="Peluche">
             </div>
           </div>
           <div class="col s12 m4 l4 card container">
             <div class="card">
-              <img class="responsive-img image" data-image="7" src="assets/images/image15.jpg" alt="Conejos">
+              <img class="responsive-img image" data-image="4" src="assets/images/image15.jpg" alt="Conejos">
             </div>
           </div>
           <div class="col s12 m4 l4 card container">
             <div class="card">
-              <img class="responsive-img image" data-image="8" src="assets/images/image10.jpg" alt="Adorno">
+              <img class="responsive-img image" data-image="5" src="assets/images/image10.jpg" alt="Adorno">
             </div>
           </div>
             <!-- </div> --> 
@@ -135,7 +157,7 @@
       </section>
     </section>
   <section>
-    <footer class="page-footer darken-2">
+    <footer class="page-footer darken-2" id="footer">
       <div class="footer-copyright">
         <div class="row">
           <div class="col l12 s12 container">
