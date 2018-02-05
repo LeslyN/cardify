@@ -40,6 +40,15 @@ li {
   padding: .5em;
 }
 
+/* Botón add */
+.add-button {
+  bottom: 37px;
+}
+
+.image-form {
+  margin-top: 2em;
+}
+
 /* Estilos al figure */
 
 figure {
@@ -72,8 +81,10 @@ figure {
   min-width: 100%;
   min-height: 100%;
   opacity: 1;
-  padding-top: 10rem;
   position: absolute;
-  text-align: center;
   top: 0%;
+  font-size: 1.8em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

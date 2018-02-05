@@ -4,7 +4,6 @@
   $.fn.cardify = function() {
     let $listOfImages = $('img'); 
     let $containerImages = $('container');
-    // $listOfImages.each(function() {
     // Evento que se ejecuta cuando el mouse está encima de la imagen
     if ($containerImages) {
       $listOfImages.wrap('<figure></figure>');

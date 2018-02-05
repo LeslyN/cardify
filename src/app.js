@@ -1,4 +1,4 @@
 window.addEventListener('load', () => {
-  $(".button-collapse").sideNav();
+  $('.button-collapse').sideNav();
   $('img').cardify();
 });
