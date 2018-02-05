@@ -7,7 +7,6 @@
     $('.button-collapse').sideNav();
     var $listOfImages = $('img');
     var $containerImages = $('container');
-    // $listOfImages.each(function() {
     // Evento que se ejecuta cuando el mouse está encima de la imagen
     if ($containerImages) {
       $listOfImages.wrap('<figure></figure>');
