@@ -1,8 +1,6 @@
 # Cardify
 
-## **Objetivo**
-
-Implementar un plugin de jQuery que dado un _contenedor_ debe buscar todas las
+El objetivo de este proyecto es implementar un plugin de jQuery que dado un _contenedor_ debe buscar todas las
 imágenes que encuentre dentro del _contenedor_ y reemplazarlas por un nuevo
 elemento `<figure>` que contenga la imagen (`<img>`) además de un `<figcaption>`
 con el texto del atributo `alt` de la imagen.
