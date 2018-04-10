@@ -1,25 +1,19 @@
 # Cardify
 
-[![forthebadge](http://forthebadge.com/images/badges/built-by-developers.svg)](http://forthebadge.com)
-[![forthebadge](http://forthebadge.com/images/badges/uses-css.svg)](http://forthebadge.com)
-[![forthebadge](http://forthebadge.com/images/badges/uses-html.svg)](http://forthebadge.com)
-[![forthebadge](http://forthebadge.com/images/badges/uses-js.svg)](http://forthebadge.com)
-[![forthebadge](http://forthebadge.com/images/badges/uses-git.svg)](http://forthebadge.com)
-[![forthebadge](http://forthebadge.com/images/badges/validated-html5.svg)](http://forthebadge.com)
-[![forthebadge](http://forthebadge.com/images/badges/for-you.svg)](http://forthebadge.com)
-
-* **Track:** _Common Core_
-* **Curso:** _JS Deep Dive: Crea tu propia librería usando JavaScript_
-* **Unidad:** _Producto final_
-
-***
-
 ## **Objetivo**
 
 Implementar un plugin de jQuery que dado un _contenedor_ debe buscar todas las
 imágenes que encuentre dentro del _contenedor_ y reemplazarlas por un nuevo
 elemento `<figure>` que contenga la imagen (`<img>`) además de un `<figcaption>`
 con el texto del atributo `alt` de la imagen.
+
+![image](https://user-images.githubusercontent.com/12226296/38534954-bb319b74-3c46-11e8-8ca6-9a2603f8368d.png)
+
+***
+## Desarrollado para 
+ 
+[Laboratoria](http://laboratoria.la)
+
 
 ## **Herramientas Tecnológicas**
 
